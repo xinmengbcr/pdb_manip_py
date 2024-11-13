@@ -151,7 +151,6 @@ pqr_format = True) #doctest: +ELLIPSIS
         [PDB2PQR_BIN,
          "--ff", ff,
          "--ffout", ff,
-         "--keep-chain",
          "--titration-state-method={}".format(method),
          "--with-ph={:.2f}".format(ph),
          os.path.join(out_folder + "/tmp_pdb2pqr.pdb"),
